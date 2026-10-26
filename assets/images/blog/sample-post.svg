@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1315" />
+      <stop offset="50%" stop-color="#2a151b" />
+      <stop offset="100%" stop-color="#0f0b0c" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8432f" />
+      <stop offset="100%" stop-color="#9e0f25" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)" />
+
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="1000" height="475" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.1" filter="url(#shadow)" />
+
+    <circle cx="80" cy="80" r="28" fill="url(#accent)" />
+    <path d="M 72 80 L 78 86 L 90 74" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+    <text x="130" y="88" font-family="'Inter', system-ui, sans-serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="-0.02em">BlogBERT Starter</text>
+
+    <text x="80" y="210" font-family="'Inter', system-ui, sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-0.03em">Your New Blog is Live</text>
+    <text x="80" y="270" font-family="'Inter', system-ui, sans-serif" font-size="24" font-weight="400" fill="#d6c9cb" letter-spacing="-0.01em">Free GitHub Pages hosting &bull; Automated Markdown publishing &bull; Built-in SEO</text>
+
+    <rect x="80" y="340" width="180" height="48" rx="24" fill="url(#accent)" />
+    <text x="170" y="371" font-family="'Inter', system-ui, sans-serif" font-size="16" font-weight="600" fill="#ffffff" text-anchor="middle">Ready to Publish</text>
+  </g>
+</svg>

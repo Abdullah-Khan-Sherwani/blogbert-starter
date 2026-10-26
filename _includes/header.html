@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="site-wrap site-header__inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <span class="site-brand__badge"></span>
+      <span>{{ site.title | escape }}</span>
+    </a>
+    <nav class="site-nav">
+      <a class="site-nav__link{% if page.url == '/' %} site-nav__link--active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+      <a class="site-nav__link{% if page.url == '/about/' %} site-nav__link--active{% endif %}" href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
+  </div>
+</header>

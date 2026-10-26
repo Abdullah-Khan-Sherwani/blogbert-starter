@@ -1,0 +1,32 @@
+# Site settings
+title: "My Blog"
+description: "A fast, clean, search-ready blog powered by BlogBERT."
+author: "Blog Author"
+url: "" # e.g. https://yourusername.github.io
+baseurl: "" # e.g. /my-blog if deployed to a repository subpath, or empty for user/org pages
+
+# Permalinks matching the BlogBERT Jekyll preset contract (/blog/:slug/)
+permalink: /blog/:slug/
+
+# Visual accent colour (BlogBERT crimson: #b3122b)
+accent_color: "#b3122b"
+accent: "#b3122b"
+
+# Build settings & plugins (GitHub Pages allowlist only)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude repository-specific documentation from the built site
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
